@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div id="controls" style="margin:auto;">
+  	 <button id="recordButton">Record</button>
+  	 <button id="pauseButton" disabled>Pause</button>
+  	 <button id="stopButton" disabled>Stop</button>
+    </div>
+    <div id="formats" style="margin:auto;"></div>
+  	<ul style="list-style-type:none; margin:auto; padding:0;" id="recordingsList"></ul>
+
+	<script type="text/javascript">var upload_link = "/{{ name }}/{{ num }}/upload"; var validate_link = "/{{ name }}/{{ num }}/validate"</script>
+  	<script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+  	<script src="/static/app.js"></script>
+  </body>
+</html>
